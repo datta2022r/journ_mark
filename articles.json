@@ -1,0 +1,4 @@
+[
+ {"id":"sample1","title":"Sample: How brand stories shape consumer trust","journal":"Journal of Marketing","date":"2026-10-20","abstract":"This is sample data so you can preview the app. Run fetch.py (or the GitHub Action) to replace it with real articles.","url":"https://openalex.org","first_seen":"2026-10-29T06:00:00Z"},
+ {"id":"sample2","title":"Sample: Pricing algorithms and perceived fairness","journal":"Marketing Science","date":"2026-10-18","abstract":"Another placeholder abstract about pricing, to try the keyword filter.","url":"https://openalex.org","first_seen":"2026-10-28T06:00:00Z"}
+]

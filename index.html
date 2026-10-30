@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#233d4d">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>Marketing Journals</title>
+<style>
+:root{--bg:#f2f4f3;--ink:#16262e;--muted:#5b6b73;--line:#d5dcdc;--accent:#233d4d;--on-accent:#fff;--new:#d97706;--chip:#e3eaea}
+@media(prefers-color-scheme:dark){:root{--bg:#12191d;--ink:#e6ecee;--muted:#8fa1a9;--line:#26343b;--accent:#8ec5d6;--on-accent:#12191d;--new:#f5b84b;--chip:#1e2b32}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;
+  padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+main{max-width:680px;margin:0 auto;padding:16px 16px 48px}
+h1{font:600 1.6rem/1.2 "Iowan Old Style","Palatino Linotype",Georgia,serif;margin:4px 0 2px}
+.sub{color:var(--muted);font-size:.9rem;margin:0 0 14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.row{display:flex;gap:8px;margin-bottom:8px}
+input,select{width:100%;min-width:0;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+.tabs{display:flex;border-bottom:1px solid var(--line);margin:14px 0 0}
+.tab{flex:1;padding:10px;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted)}
+.tab[aria-selected=true]{color:var(--ink);border-color:var(--accent);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 6px}
+.chip{background:var(--chip);border:1px solid transparent;border-radius:999px;padding:4px 6px 4px 12px;font-size:.88rem;display:flex;gap:6px;align-items:center}
+.chip[aria-pressed=true]{background:var(--accent);color:var(--on-accent)}
+.chip .x{background:none;border:0;padding:0 6px;opacity:.7;color:inherit}
+.pill{border:1px solid var(--line);background:none;border-radius:999px;padding:3px 12px;font-size:.85rem}
+.pill[aria-pressed=true]{background:var(--new);color:#16262e;border-color:var(--new);font-weight:600}
+.item{padding:16px 0 16px 14px;border-bottom:1px solid var(--line);border-left:3px solid transparent;margin-left:-14px}
+.item.new{border-left-color:var(--new)}
+.meta{font-size:.85rem;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.badge{color:var(--new);font-weight:700}
+.title{font:600 1.1rem/1.35 "Iowan Old Style","Palatino Linotype",Georgia,serif;margin:4px 0 0;cursor:pointer;background:none;border:0;padding:0;text-align:left;width:100%}
+.abs{margin:10px 0 0;font-size:.95rem;max-width:68ch}
+.acts{display:flex;gap:16px;margin-top:10px;font-size:.9rem}
+.acts button,.acts a{background:none;border:0;padding:4px 0;color:var(--accent);text-decoration:none}
+.acts .on{font-weight:700}
+mark{background:color-mix(in srgb,var(--new) 35%,transparent);color:inherit;border-radius:2px}
+.empty{padding:40px 0;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Marketing journals</h1>
+  <p class="sub"><span id="status">Loading</span><button class="pill" id="newBtn" hidden aria-pressed="false"></button><button class="pill" id="seenBtn" hidden>Mark all as seen</button></p>
+  <div class="row">
+    <input id="q" type="search" placeholder="Search titles and abstracts" aria-label="Search">
+    <select id="jr" aria-label="Journal"><option value="">All journals</option></select>
+  </div>
+  <div class="row">
+    <input id="kw" placeholder="Add a keyword to follow (e.g. pricing)" aria-label="Add keyword" enterkeyhint="done">
+  </div>
+  <div class="chips" id="chips"></div>
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" data-tab="all" aria-selected="true" id="tAll"></button>
+    <button class="tab" role="tab" data-tab="saved" aria-selected="false" id="tSaved"></button>
+  </div>
+  <div id="list"></div>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const store = {
+  get(k, d){ try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+let articles = [], saved = store.get("saved", {}), keywords = store.get("keywords", []);
+const baseline = store.get("lastVisit", null);   // fixed for this session
+let seenNow = false, tab = "all", onlyNew = false, open = new Set();
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const isNew = a => !seenNow && baseline && a.first_seen > baseline;
+const text = a => (a.title + " " + a.abstract).toLowerCase();
+
+function hl(s, terms){
+  let out = esc(s);
+  terms.filter(Boolean).forEach(t => {
+    const re = new RegExp("(" + esc(t).replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi");
+    out = out.replace(re, "<mark>$1</mark>");
+  });
+  return out;
+}
+
+function filtered(){
+  const q = $("q").value.trim().toLowerCase(), j = $("jr").value;
+  const on = keywords.filter(k => k.on).map(k => k.t.toLowerCase());
+  const pool = tab === "saved" ? Object.values(saved) : articles;
+  return pool.filter(a =>
+    (!j || a.journal === j) &&
+    (!q || text(a).includes(q)) &&
+    (!on.length || on.some(k => text(a).includes(k))) &&
+    (!onlyNew || isNew(a)));
+}
+
+function render(){
+  const terms = [$("q").value.trim(), ...keywords.filter(k => k.on).map(k => k.t)];
+  const items = filtered().sort((a, b) => b.date.localeCompare(a.date));
+  const newCount = articles.filter(isNew).length;
+
+  $("tAll").textContent = `All (${articles.length})`;
+  $("tSaved").textContent = `Saved (${Object.keys(saved).length})`;
+  $("newBtn").hidden = $("seenBtn").hidden = !newCount;
+  $("newBtn").textContent = `${newCount} new since last visit`;
+  $("newBtn").setAttribute("aria-pressed", onlyNew);
+  $("chips").innerHTML = keywords.map((k, i) =>
+    `<span class="chip" aria-pressed="${k.on}" data-i="${i}" role="button" tabindex="0">${esc(k.t)}<button class="x" data-del="${i}" aria-label="Remove ${esc(k.t)}">&times;</button></span>`).join("");
+
+  $("list").innerHTML = items.length ? items.map(a => `
+    <article class="item ${isNew(a) ? "new" : ""}" data-id="${esc(a.id)}">
+      <div class="meta">${isNew(a) ? '<span class="badge">New</span>' : ""}<span>${esc(a.journal)}</span><span>${esc(a.date)}</span></div>
+      <button class="title" data-open>${hl(a.title, terms)}</button>
+      ${open.has(a.id) ? `<p class="abs">${a.abstract ? hl(a.abstract, terms) : "No abstract available yet. Open the article for details."}</p>` : ""}
+      <div class="acts">
+        <button data-save class="${saved[a.id] ? "on" : ""}">${saved[a.id] ? "Saved" : "Save for later"}</button>
+        <button data-open>${open.has(a.id) ? "Hide abstract" : "Read abstract"}</button>
+        <a href="${esc(a.url)}" target="_blank" rel="noopener">Open article</a>
+      </div>
+    </article>`).join("")
+  : `<div class="empty">${tab === "saved" ? "Nothing saved yet. Tap Save for later on any article." : "No articles match these filters."}</div>`;
+}
+
+$("list").addEventListener("click", e => {
+  const card = e.target.closest("[data-id]"); if (!card) return;
+  const id = card.dataset.id;
+  if (e.target.closest("[data-save]")){
+    const a = articles.find(x => x.id === id) || saved[id];
+    if (saved[id]) delete saved[id]; else saved[id] = a;
+    store.set("saved", saved);
+  } else if (e.target.closest("[data-open]")){
+    open.has(id) ? open.delete(id) : open.add(id);
+  } else return;
+  render();
+});
+
+$("chips").addEventListener("click", e => {
+  const del = e.target.closest("[data-del]");
+  if (del){ keywords.splice(+del.dataset.del, 1); }
+  else { const c = e.target.closest("[data-i]"); if (!c) return; keywords[+c.dataset.i].on = !keywords[+c.dataset.i].on; }
+  store.set("keywords", keywords); render();
+});
+$("kw").addEventListener("keydown", e => {
+  if (e.key !== "Enter") return;
+  const t = e.target.value.trim();
+  if (t && !keywords.some(k => k.t.toLowerCase() === t.toLowerCase())) keywords.push({t, on: true});
+  e.target.value = ""; store.set("keywords", keywords); render();
+});
+document.querySelectorAll(".tab").forEach(b => b.onclick = () => {
+  tab = b.dataset.tab;
+  document.querySelectorAll(".tab").forEach(x => x.setAttribute("aria-selected", x === b));
+  render();
+});
+$("q").oninput = $("jr").onchange = render;
+$("newBtn").onclick = () => { onlyNew = !onlyNew; render(); };
+$("seenBtn").onclick = () => { seenNow = true; onlyNew = false; store.set("lastVisit", new Date().toISOString()); render(); };
+
+const stamp = () => store.set("lastVisit", new Date().toISOString());
+document.addEventListener("visibilitychange", () => { if (document.hidden) stamp(); });
+addEventListener("pagehide", stamp);
+
+fetch("articles.json", {cache: "no-cache"}).then(r => r.json()).then(d => {
+  articles = d;
+  [...new Set(d.map(a => a.journal).filter(Boolean))].sort().forEach(j => {
+    const o = document.createElement("option"); o.textContent = o.value = j; $("jr").append(o);
+  });
+  const latest = d.map(a => a.first_seen).sort().pop();
+  $("status").textContent = latest ? `Updated ${new Date(latest).toLocaleDateString()}` : "No articles yet";
+  render();
+}).catch(() => { $("status").textContent = "Could not load articles"; render(); });
+
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+</script>
+</body>
+</html>
