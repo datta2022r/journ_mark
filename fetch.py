@@ -1,9 +1,9 @@
 """Fetch recent articles from top marketing journals via OpenAlex (free, no key)."""
 import json, re, datetime, requests
 
-MAILTO = "you@example.com"   # <- put your email: gives you OpenAlex's faster "polite" pool
-DAYS_BACK = 60               # how far back to look
-KEEP_DAYS = 120              # drop articles older than this from the feed
+MAILTO = "datta2022r@gmail.com"   # <- put your email: gives you OpenAlex's faster "polite" pool
+DAYS_BACK = 120               # how far back to look
+KEEP_DAYS = 365             # drop articles older than this from the feed
 
 # Check these against the current ABDC list. Edit freely.
 JOURNALS = [
