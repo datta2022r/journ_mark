@@ -1,5 +1,32 @@
 [
  {
+  "id": "W7224779731",
+  "title": "Experimental Evidence on Structural State Dependence in Demand",
+  "journal": "Marketing Science",
+  "date": "2026-10-30",
+  "abstract": "The paper provides nonparametric estimates of structural state dependence from a natural field experiment for 223 brands.",
+  "url": "https://doi.org/10.1287/mksc.2024.1274",
+  "first_seen": "2026-11-01T06:36:08Z"
+ },
+ {
+  "id": "W7224849556",
+  "title": "Frontiers: Reducing Disparity Between LLMs and Humans: Optimal LLM Sample Calibration",
+  "journal": "Marketing Science",
+  "date": "2026-10-30",
+  "abstract": "Large language models (LLMs) are increasingly used to measure human preferences and opinions, but their outputs can diverge from human responses. We introduce human mimicry calibration (HuMCal), a post hoc, model-agnostic method that uses aggregate human benchmark data to learn how to combine LLM outputs from different prompts, personas, and model checkpoints. In applications to consumer transaction data and public opinion surveys, HuMCal improves agreement with human benchmarks over standard aggregation rules, and the calibrated weights often remain useful across time, geography, industry, and question clusters.",
+  "url": "https://doi.org/10.1287/mksc.2024.0983",
+  "first_seen": "2026-11-01T06:36:08Z"
+ },
+ {
+  "id": "W7224889302",
+  "title": "Injunctive Norms Outperform Reciprocity: Tip Request Messages Can Increase Tipping Without Reducing Demand",
+  "journal": "Marketing Science",
+  "date": "2026-10-30",
+  "abstract": "Tip request messages are marketing communications that can help digital platforms balance customer spending with worker effort and compensation. We report the first field experiments testing how three appeals based on tipping motivations—injunctive norms (“It’s customary to leave a tip for the seller’s service”), personalized reciprocity, and impersonal reciprocity—affect tipping and future demand in a global freelance marketplace. Overall, the norms message increased tipping the most, and did so without reducing returning demand, showing that tip request messages can motivate customer tipping to better incentivize and compensate gig workers.",
+  "url": "https://doi.org/10.1287/mksc.2025.0392",
+  "first_seen": "2026-11-01T06:36:08Z"
+ },
+ {
   "id": "W7224644853",
   "title": "The Problem of Ignoring the Ignorability Assumption in Advertising Measurement: A Matrix Completion Solution",
   "journal": "Marketing Science",
@@ -7,6 +34,33 @@
   "abstract": "This paper frames the overlap violation problem in online advertising auctions as a missing-data problem and proposes a matrix completion approach to correct the resulting bias in observational studies with algorithmic ad allocation.",
   "url": "https://doi.org/10.1287/mksc.2023.0382",
   "first_seen": "2026-10-30T16:35:54Z"
+ },
+ {
+  "id": "W7224794580",
+  "title": "Collective Sensemaking When Purchasing Complex B2B Services: How Buying Centers Construct and Align Interpretations of Vendor Service Offering",
+  "journal": "Journal of Service Research",
+  "date": "2026-10-29",
+  "abstract": "Buying centers evaluate complex B2B service offerings not by aggregating independent assessments but through collective interpretive processes that buying center theory has documented structurally without explaining. This study introduces collective service offering sensemaking as a theoretical lens that explains how buying centers construct, contest, and align interpretations of a vendor’s service offering. Drawing on a multi-phase qualitative multiple-case study of six organizations (24 interviews, 3 focus groups, 5 procurement-meeting observations; 2022–2024), we show that service evaluations originate in identity-rooted interpretive frames that differ across technical, financial, procurement, and operational roles. Through interpretive bridging, narrative negotiation, controlled dissent, and evaluative rituals, buying centers transform fragmented meaning structures into interpretive sufficiency, a threshold that enables collective action despite persistent misalignment. The central contribution is interpretive sufficiency: buying centers act on negotiated adequacy rather than consensus, convergence, or shared understanding, through three forms of service value alignment. Three supporting elements explain how the threshold is reached: identity-rooted frames generate the divergence, four interactional mechanisms convert it into workable evaluations, and contextual anchors condition which interpretations gain authority. These elements are not unique to services; what changes under service conditions is their function, salience, and intensity once value-in-use cannot be verified before adoption.",
+  "url": "https://doi.org/10.1177/10946705261496818",
+  "first_seen": "2026-11-01T06:36:08Z"
+ },
+ {
+  "id": "W7224826657",
+  "title": "EXPRESS: THE SOUND OF WORDS: VERBAL AND VOCAL CUES IN CUSTOMER SATISFACTION",
+  "journal": "Journal of Interactive Marketing",
+  "date": "2026-10-29",
+  "abstract": "Technology-mediated service interactions, such as phone calls, generate rich behavioral signals that firms currently struggle to monitor in real time. Post-interaction surveys provide delayed and unrepresentative feedback, leaving satisfaction invisible as calls unfold. Satisfaction judgments depend on how evaluative meaning is communicated across two channels, verbal content and vocal delivery, whose relative contribution varies by outcome type. The authors analyze 1,144 real-world service calls, each coded as dissatisfied, neutral, or satisfied, using text-only, audio-only, and multimodal deep learning models. Dissatisfied calls are identified from transcripts alone as accurately as by multimodal models, since customers articulate problems and remedy expectations explicitly. Neutral and satisfied calls depend more strongly on vocal interpretation, and cross-attention models outperform text-only alternatives precisely where verbal content is absent or insufficiently distinctive to separate outcomes. The findings identify a boundary condition on interactivity, whereby vocal cues add predictive value when evaluative meaning is absent or insufficiently distinctive between outcomes, not when it is explicit and clearly distinguishes outcomes, as is the case for dissatisfied calls.",
+  "url": "https://doi.org/10.1177/10949968261506232",
+  "first_seen": "2026-11-01T06:36:08Z"
+ },
+ {
+  "id": "W7224849080",
+  "title": "The Sound of Good Service: How Dominant and Submissive Language in AI Voice Assistants Shapes Consumer Responses Across Service Settings",
+  "journal": "Journal of Service Research",
+  "date": "2026-10-29",
+  "abstract": "Artificial intelligence (AI) voice assistants (VAs) function as service agents, delivering information and recommendations tailored to users’ specific needs. VA agents can engage in voice conversations, in which they may convey dominance or submissiveness in response to consumer requests, thereby shaping consumer experiences across service settings. Drawing on the notion of master–servant relationships from assemblage theory, this research examines how, and in which contexts, VAs should use dominant and submissive language to shape consumer interactions. Across six experimental studies, we find that VAs’ submissive language increases usage intentions and perceived interaction value by enhancing rapport and, in turn, comfort, which ultimately drives these consumer responses, even in authority-oriented service settings. However, under time pressure, VAs’ use of either dominant or submissive language equally predicts rapport, thereby disrupting the serial pathway through comfort that leads to usage intentions and perceived interaction value. Together, these findings help specify how service managers can best design VA language to enhance the value of consumer interactions with this technology in service contexts.",
+  "url": "https://doi.org/10.1177/10946705261492116",
+  "first_seen": "2026-11-01T06:36:08Z"
  },
  {
   "id": "W7224100095",
@@ -1951,6 +2005,15 @@
   "abstract": "Abstract This article explores the interplay between company-based product recommendation and the product’s relative price. Eight studies demonstrate that consumers are sensitive to the relative price of the recommended option and are more likely to follow the recommendation as its relative price in the choice set decreases. The findings indicate that this occurs because consumers use the relative price of the recommended option as a cue for the company’s underlying motives. That is, because consumers generally believe that companies profit more from selling expensive products, they infer that when a company recommends a higher-priced product, its main motivation for doing so is to maximize its profit. Such skepticism about the company’s true motive reduces the likelihood that consumers follow the recommendation. The effect is observed across different types of product categories (hedonic or utilitarian), platforms (offline or online), and recommendations (human- or algorithm-based). Consistent with the proposed account, the effect attenuates when the recommendation comes from an independent and reliable source, when the price–profit link is weakened (i.e., when consumers learn the dissociation between price and profit), when the recommendation is believed to be a signal for popularity, and when consumers have a low innate tendency to question the company’s motivation.",
   "url": "https://doi.org/10.1093/jcr/ucag020",
   "first_seen": "2026-10-30T16:35:54Z"
+ },
+ {
+  "id": "W7167806911",
+  "title": "Consumer expertise across technological frontiers: Consumer literacy, the internet, and artificial intelligence",
+  "journal": "Journal of the Academy of Marketing Science",
+  "date": "2026-07-09",
+  "abstract": "",
+  "url": "https://doi.org/10.1007/s11747-026-01174-0",
+  "first_seen": "2026-11-01T06:36:08Z"
  },
  {
   "id": "W7167571863",
