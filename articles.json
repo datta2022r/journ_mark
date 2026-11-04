@@ -1,5 +1,32 @@
 [
  {
+  "id": "W4406862001",
+  "title": "Swap and Save: How a Button Shapes Lasting Online Grocery Shopping Behavior",
+  "journal": "Marketing Science",
+  "date": "2026-11-02",
+  "abstract": "A well-documented phenomenon in the literature is that consumers exhibit persistence in their choices. Using data from the mineral water category on a price comparison platform that delivers real-time prompts of cheaper alternatives through \"swap and save\" buttons, this study examines whether and how these prompts influence persistent product choices in online grocery shopping. The findings reveal that shoppers who switched to an alternative product after receiving a prompt were 23.7 percentage points more likely to select that alternative product in subsequent visits, with this effect lasting for up to 10 shopping trips. Our analysis suggests that this sustained impact is driven not by long-term cost savings but by product discovery enabled through these real-time prompts.",
+  "url": "https://doi.org/10.1287/mksc.2025.0541",
+  "first_seen": "2026-11-04T06:51:58Z"
+ },
+ {
+  "id": "W7225101814",
+  "title": "Cognitive Offloading to Generative AI: A Theoretical Framework for Memory, Metacognition, and Consumer Decision-Making",
+  "journal": "Journal of Advertising",
+  "date": "2026-11-02",
+  "abstract": "",
+  "url": "https://doi.org/10.1080/00913367.2026.2725645",
+  "first_seen": "2026-11-04T06:51:58Z"
+ },
+ {
+  "id": "W7225100025",
+  "title": "Enhancing or Transcending the Pipeline? How Incumbents Transition Toward Marketplace Platforms",
+  "journal": "Journal of Product Innovation Management",
+  "date": "2026-11-01",
+  "abstract": "ABSTRACT Business‐to‐business incumbents whose value creation rests on pipeline business models increasingly launch their own marketplace platforms. Yet how these business model transitions toward marketplace platforms unfold, and what they imply for the pipeline model, remains poorly understood. Adopting a cognitive perspective on managerial interpretations and decisions, we conduct a comparative case study of five marketplace platforms launched by incumbents in the European industrial products industry. We find that platform competition and the opportunities managers perceive in business‐to‐consumer platforms trigger platform creation, after which incumbents follow one of two pathways. In pipeline‐enhancing transitions, managers locate future value in the existing pipeline model and adopt platform features that strengthen it, resulting in cognitive alignment and interconnected platform–pipeline business models. In pipeline‐transcending transitions, managers locate future value in the marketplace platform and use business‐to‐consumer marketplaces as a reference point. This generates cognitive tensions with the pipeline model that ultimately resolve into independent pipeline and marketplace platform business models. Which pathway unfolds depends on the customer segments served, which shape managers' reference points for interpreting the evolving platform business model. Our process model explains these divergent outcomes and contributes to innovation management research on business model transitions toward platforms and their cognitive dynamics.",
+  "url": "https://doi.org/10.1111/jpim.70063",
+  "first_seen": "2026-11-04T06:51:58Z"
+ },
+ {
   "id": "W7224779731",
   "title": "Experimental Evidence on Structural State Dependence in Demand",
   "journal": "Marketing Science",
@@ -1036,10 +1063,10 @@
  },
  {
   "id": "W7210265569",
-  "title": "EXPRESS: When and Why Consumers Avoid Purchase on Smartphones",
+  "title": "When and Why Consumers Avoid Purchase on Smartphones",
   "journal": "Journal of Marketing",
   "date": "2026-09-06",
-  "abstract": "Consumers increasingly rely on smartphones to browse and compare products, yet they remain substantially less likely to purchase on smartphones than on PCs. This research examines the psychological mechanisms underlying this mobile conversion gap, the conditions under which it dissipates, and whether consumer reluctance is warranted. A pilot study, nine controlled experiments, real-world sales analysis, and a field experiment show that smartphone (vs. PC) use reduces purchase likelihood by altering how consumers evaluate their decision process. Specifically, four characteristics of smartphones lead consumers to feel they think less thoroughly when using the device, which then lowers perceived decision quality and reduces purchase likelihood. Consistent with this mechanism, the negative effect of smartphone use on purchase attenuates when decisions are perceived as requiring little thought, whether due to product characteristics, individual differences, or situational contexts, and can be mitigated by interventions that enhance perceived decision quality on smartphones. Importantly, we show that this reluctance is not fully warranted; even when objective performance is equal to or better on smartphones, consumers perceive their decisions more negatively than they do on PCs. The findings reveal a device-specific bias in self-assessment underlying the mobile conversion gap and offer actionable strategies for improving mobile performance.",
+  "abstract": "Consumers increasingly rely on smartphones to browse and compare products, yet they remain substantially less likely to purchase on smartphones than on personal computers (PCs). This research examines the psychological mechanisms underlying this mobile conversion gap, the conditions under which it dissipates, and whether consumer reluctance is warranted. A pilot study, nine controlled experiments, real-world sales analysis, and a field experiment show that smartphone (vs. PC) use reduces purchase likelihood by altering how consumers evaluate their decision process. Specifically, four characteristics of smartphones lead consumers to feel they think less thoroughly when using the device, which then lowers perceived decision quality and reduces purchase likelihood. Consistent with this mechanism, the negative effect of smartphone use on purchase attenuates when decisions are perceived as requiring little thought, whether due to product characteristics, individual differences, or situational contexts, and can be mitigated by interventions that enhance perceived decision quality on smartphones. Importantly, this reluctance is not fully warranted; even when objective performance is equal to or better on smartphones, consumers perceive their decisions more negatively than they do on PCs. The findings reveal a device-specific bias in self-assessment underlying the mobile conversion gap and offer actionable strategies for improving mobile performance.",
   "url": "https://doi.org/10.1177/00222429261488054",
   "first_seen": "2026-10-30T16:35:54Z"
  },
@@ -1405,10 +1432,10 @@
  },
  {
   "id": "W7203901346",
-  "title": "EXPRESS: Ready to Convert? How to Talk with Sales Leads",
+  "title": "Ready to Convert? How to Talk with Sales Leads",
   "journal": "Journal of Marketing Research",
   "date": "2026-08-21",
-  "abstract": "Lead calling is a vital aspect of B2B prospecting, yet how salesperson speech influences lead conversion remains understudied. Drawing on Symbolic Interactionism theory and grounded analysis, we develop a framework that conceptualizes salesperson speech as comprising linguistic acts (legitimizing, piquing, nudging) and paralinguistic acts (intensity, speech rate, pitch). We further theorize how these communicative acts influence lead receptivity, a speaking turn-level indicator of a lead’s openness to the sales message, and how lead receptivity shapes conversation-level conversion. Using data from 783 lead calling conversations involving 11,566 speaking turns, we test the proposed framework. Results show that a 1 SD increase in lead receptivity raises conversion likelihood by 13.44%. We also show that the effectiveness of communicative acts depends on whether and when salespeople deploy them during conversations. For instance, more specific (compared to less specific) nudges increase lead receptivity by 11.82% earlier in the conversation but reduce it by 81.40% later in the conversation. Similarly, speaking faster (vs. slower) has a neutral effect on lead receptivity earlier in the conversation, compared with 8.26% reduction later in the conversation. These findings offer new insights into the lead conversion process and provide actionable guidance to improve lead calling effectiveness.",
+  "abstract": "Lead calling is a vital aspect of B2B prospecting, yet how salesperson speech influences lead conversion remains understudied. Drawing on symbolic interactionism theory and grounded analysis, the authors develop a framework that conceptualizes salesperson speech as comprising linguistic acts (legitimizing, piquing, nudging) and paralinguistic acts (intensity, speech rate, pitch). The authors further theorize how these communicative acts influence lead receptivity, a speaking turn–level indicator of a lead's openness to the sales message, and how lead receptivity shapes conversation-level conversion. Using data from 783 lead-calling conversations involving 11,566 speaking turns, the authors test the proposed framework. Results show that a one-standard-deviation increase in lead receptivity raises conversion likelihood by 13.44%. The authors also show that the effectiveness of communicative acts depends on whether and when salespeople deploy them during conversations. For instance, more specific (vs. less specific) nudges increase lead receptivity by 11.82% earlier in the conversation but reduce it by 81.40% later in the conversation. Similarly, speaking faster (vs. slower) has a neutral effect on lead receptivity earlier in the conversation, compared with 8.26% reduction later in the conversation. These findings offer new insights into the lead conversion process and provide actionable guidance to improve lead-calling effectiveness.",
   "url": "https://doi.org/10.1177/00222437261481444",
   "first_seen": "2026-10-30T16:35:54Z"
  },
