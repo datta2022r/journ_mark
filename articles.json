@@ -9,6 +9,33 @@
   "first_seen": "2026-11-07T06:38:41Z"
  },
  {
+  "id": "W4412752420",
+  "title": "EXPRESS: Are Exposure Bucks Worth It? Evidence from Instagram",
+  "journal": "Journal of Marketing Research",
+  "date": "2026-11-05",
+  "abstract": "Using Instagram's recently introduced collaborative post feature, which lets brands credit creators in shared posts seen by the brand's followers, this study quantifies the value of exposure to a brand's audience for small-to-mid-tier sized creators. We assemble a novel dataset linking all collaborative posts from 260 leading fashion and beauty brands to a daily panel of follower counts for the participating creators. To identify causal effects, we exploit rigidity in brands' posting schedules together with high-frequency daily data, attributing the discrete jump in follower growth on the exact post date to brand exposure. To address post content endogeneity, we match treated and control posts on visual content using GPT-4o embeddings and additional aesthetic features. On average, a collaborative post increases a creator's follower count by 0.52%--roughly one week of organic growth--and yields a conversion rate from brand followers to creator followers comparable to online display advertising. We find no effect on engagement or on creators' subsequent sponsored work with other brands. Although larger brands offer greater reach, their followers are less engaged and their collaborative content deviates further from creators' typical style, resulting in roughly constant treatment effects across brands ranging from 0.7 to 8.6 million followers.",
+  "url": "https://doi.org/10.1177/00222437261507987",
+  "first_seen": "2026-11-08T06:39:49Z"
+ },
+ {
+  "id": "W7225392252",
+  "title": "EXPRESS: The Enjoy-Able Effect: Consumer Enjoyment Inflates Self-Evaluations of Ability",
+  "journal": "Journal of Marketing Research",
+  "date": "2026-11-05",
+  "abstract": "This research establishes the enjoy-able effect . Enjoyment (whether experienced, anticipated, or relative) increases consumers’ self-evaluated ability, leading them to act more like self-perceived experts (e.g., choose more expert-targeted products) and exhibit better-than-average biases for more enjoyable activities. Two waves of archival data (Ns = 559,370 and 491,791), normed associations across 100 consumer activities (N = 397), and six experiments (Ns = 251–593) document these outcomes of consumer enjoyment, establish that they operate independently of actual ability, and provide evidence that consumers’ inferences about their ability are driven by their overgeneralization of a lay theory about the relationship between enjoyment and expertise. The enjoy-able effect therefore depends on the diagnosticity of enjoyment as an input to subjective expertise, relative to other accessible inputs. Accordingly, this work highlights when and for whom other accessible inputs (e.g., an alternate lay theory associating effort and expertise) reduce reliance on the “enjoyment = expertise” lay theory. Overall, this research documents a previously unrecognized influence of enjoyment on consumer behavior, offers new insights on classic theories (e.g., flow and self-determination theory), and identifies a new and robust antecedent to subjective expertise. Managerial implications for product development and promotion, consumer targeting, and gamification are discussed.",
+  "url": "https://doi.org/10.1177/00222437261507719",
+  "first_seen": "2026-11-08T06:39:49Z"
+ },
+ {
+  "id": "W7225398155",
+  "title": "EXPRESS: So Near Yet So Far: The Unexpected Role of Near Misses for Salesperson Turnover",
+  "journal": "Journal of Marketing Research",
+  "date": "2026-11-05",
+  "abstract": "Quota attainment is critical for salespeople because it determines their income, recognition, and career progression. Accordingly, salespeople who frequently fail to meet quota may become more inclined to turn over and try their luck elsewhere. However, not all quota failures carry the same weight. Drawing on the expected utility model of turnover, we argue that salespeople who repeatedly miss quota by a narrow margin are especially likely to turn over. This is because such near misses erode a salesperson’s confidence that they will yield valued outcomes in their current job while increasing the perceived attainability of those outcomes elsewhere. We validate these predictions using a seven-year cross-industry panel of 13,277 salespeople across 44 companies, three experiments, and multiple auxiliary studies. The effect is stronger when hitting quota is more important due to high variable pay and group performance homogeneity. Furthermore, we establish expected utility of switching as the mechanism underlying these effects. Our research introduces near misses as a novel antecedent of turnover and as a new trigger that can reshape expected utilities. Furthermore, our research allows managers to implement targeted interventions to retain valuable talents, such as preventing near misses or reframing salespeople’s expected utility once near misses occur.",
+  "url": "https://doi.org/10.1177/00222437261507984",
+  "first_seen": "2026-11-08T06:39:49Z"
+ },
+ {
   "id": "W7225171472",
   "title": "Crowd Forensics and Warrant Braiding: Collaborative Persuasion Knowledge in AI Influencer Threads",
   "journal": "Journal of Advertising",
