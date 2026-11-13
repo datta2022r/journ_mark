@@ -1,5 +1,68 @@
 [
  {
+  "id": "W4394808975",
+  "title": "EXPRESS: Causal Alignment: Augmenting Language Models with A/B Tests",
+  "journal": "Journal of Marketing Research",
+  "date": "2026-11-11",
+  "abstract": "We develop a framework for improving the effectiveness of marketing communications by aligning a language model to the causal signal in A/B tests. The core idea is that randomized experiments reveal not just which content performs best, but directions of improvement that can serve as supervision for a generative model. Using within-experiment comparisons, we fine-tune a language model to create an improver architecture that transforms lower-performing content into higher-performing content. The resulting model can be composed with any baseline decision-maker, e.g. a human expert, to suggest improvements to new content. We validate our framework through a large-scale field experiment in email marketing spanning 36 new campaigns and 283 million impressions. Subject lines improved by our aligned model achieve click-through rates 32% higher than those from unassisted human experts, while a general-purpose language model with 30 times as many parameters as our fine-tuned model does not improve outcomes. This suggests that alignment to experimental data adds value beyond model capabilities alone. Our findings provide the first field evidence that aligning language models to A/B tests improves outcomes in real marketing campaigns and show that integrating AI with experimentation can train systems that make better future decisions.",
+  "url": "https://doi.org/10.1177/00222437261510017",
+  "first_seen": "2026-11-13T06:52:57Z"
+ },
+ {
+  "id": "W4410489939",
+  "title": "EXPRESS: Biological Age and its Value to Marketing Theory and Practice",
+  "journal": "Journal of Marketing",
+  "date": "2026-11-11",
+  "abstract": "Aging has profound effects on how we consume, yet marketers often simplify aging to the mere passage of time (chronological age; ChronAge), overlooking biological and psychological aspects and meaningful variation within ChronAge segments. This paper highlights the need for multidimensional approaches to studying aging consumers and pioneers a framework integrating biological aging into consumer behavior theory. It introduces a measure of biological age (BioAge), derived from epigenetic data, to marketing. Using Health and Retirement Study data, the analyses demonstrate that BioAge captures distinct aspects of aging, not reflected in ChronAge, and improves prediction of consumer activities and spending. BioAge is most useful in domains where functional capacity, energy, cognition, and health-related constraints shape engagement, including technology use, social and physical activity, and discretionary entertainment spending, and is limited in more routinized or necessity-based domains. The analyses further show that BioAge mediates the impact of time on consumer behavior through objective physiological pathways, including chronic disease, cognitive functioning, and physical vitality, rather than subjective perceptions of health. The paper concludes with implications and best practices, including how BioAge can improve segmentation and customer lifetime value optimization, and the ethical and legal challenges of its use in research and practice.",
+  "url": "https://doi.org/10.1177/00222429261508777",
+  "first_seen": "2026-11-13T06:52:57Z"
+ },
+ {
+  "id": "W7225771920",
+  "title": "EXPRESS: From Trends to Tweets: The Impact of Trendjacking on Consumer Engagement on Social Media",
+  "journal": "Journal of Interactive Marketing",
+  "date": "2026-11-11",
+  "abstract": "Brands increasingly insert themselves into trending online cultural moments, a practice known as trendjacking, yet evidence on its effectiveness is mixed. Combining over 660,000 posts from 356 Fortune-listed companies (2018–2022) with trending topic data from X, we find that trendjacking increases social media engagement by 120.8%. We further find that trendjacking’s effectiveness varies by timing, trend type, and brand personality. Engagement is highest when brands post on the day following and on the day a trend first enters X’s top five trends. Effectiveness also varies by trend type, with pop culture trends generating the most engagement. Brand personality further shapes these effects, as exciting brands do best with pop culture trends, whereas rugged brands perform better with political trends. We further conduct two controlled experiments across different product categories, controlling for post and topic characteristics, and find consistent evidence that trendjacking increases engagement. These findings offer important implications for managers seeking to leverage trending topics in their social media strategy.",
+  "url": "https://doi.org/10.1177/10949968261508771",
+  "first_seen": "2026-11-13T06:52:57Z"
+ },
+ {
+  "id": "W7225778491",
+  "title": "Exploration Across Incompatible Technologies: How Firms Organize Flexibility for Innovation",
+  "journal": "Journal of Product Innovation Management",
+  "date": "2026-11-11",
+  "abstract": "ABSTRACT Firms often face multiple emerging technologies that evolve in parallel yet share limited architectural compatibility. In such settings, firms may concentrate innovation on one trajectory or pursue flexibility by maintaining engagement across multiple trajectories. We theorize that flexibility can improve innovation performance, but that these benefits depend on organizational structures that facilitate deep, trajectory‐specific learning and effective coordination. We argue that focused subsidiaries enable deep expertise within individual technologies, external collaborations provide access to complementary expertise beyond firm boundaries, and organizational modularity reduces the coordination burdens associated with pursuing multiple trajectories. Using 40‐year longitudinal data from the flat‐panel display industry, we find that the benefits of a flexibility strategy for innovation performance are substantially greater when firms have more focused subsidiaries, engage in more external collaboration, or exhibit higher organizational modularity. These findings are consistent across three complementary dimensions of innovation performance: patent impact, patent monetary value, and new product introductions. When these organizational arrangements are limited, the relationship between flexibility and innovation performance is substantially weaker. Our study demonstrates how organizational design enables firms to realize the innovation benefits of flexibility across architecturally incompatible technological trajectories.",
+  "url": "https://doi.org/10.1111/jpim.70062",
+  "first_seen": "2026-11-13T06:52:57Z"
+ },
+ {
+  "id": "W7225785168",
+  "title": "The Rose and Its Hidden Thorn: Patterning and Evolution of Consumer Vulnerability in Transformative Service Initiatives",
+  "journal": "Journal of Service Research",
+  "date": "2026-11-11",
+  "abstract": "Transformative Service Initiatives (TSIs) aim to reduce consumer vulnerability (CV), yet they can reproduce the harm they seek to address. We investigate this paradox in TSIs offering entrepreneurship support to refugees. Study 1, drawing on interviews with forty-two managers from thirty-three TSIs, identifies three service models (access-dominant, balanced-constrained and control-dominant) that organise consumers’ access to resources and control over their use. Each model positions consumers differently, as passive recipients, conditional agents or autonomous strivers, and sustaining each position makes a distinct CV pattern likely: a recurrent form of constrained agency or unmet need. Study 2, a three-year ethnography of a TSI provider (70 interviews, 144 observational sessions), shows how consumers contest their assigned positions within the service relationship: testimonial repositioning (making the lived costs of service participation visible) and prefigurative repositioning (demonstrating what greater enabling resources could make possible). It then traces how these acts contributed to service-model reconfiguration under particular organisational and institutional conditions. Theoretically, findings explain how service models can recurrently pattern vulnerability through consumer positioning and how consumers’ within-relationship responses may contribute to service-model reconfiguration. Managerially, the typology enables managers to diagnose CV risks in their service models and develop organisational capacity for service reconfiguration.",
+  "url": "https://doi.org/10.1177/10946705261502647",
+  "first_seen": "2026-11-13T06:52:57Z"
+ },
+ {
+  "id": "W7225802537",
+  "title": "CEO environmental communication, speech acts, and firm value",
+  "journal": "Journal of the Academy of Marketing Science",
+  "date": "2026-11-11",
+  "abstract": "Abstract Signaling theory predicts that communication, such as by CEOs, might complement observable environmental engagement by a firm, by reducing information asymmetry. Yet it remains unclear whether firms with stronger environmental engagement communicate more about these efforts and the potential implications for firm value. To analyze 14,523 firm-quarter earnings call Q&A sessions held by 364 publicly listed firms between 2007 and 2022, the current research measures CEO communication about firm environmental engagement and the communicative intent behind such communication by combining MSCI Environmental Pillar Scores, Compustat data, and a fine-tuned DeBERTa model. Firms with stronger environmental engagement communicate less, rather than more, about their efforts during earnings call Q&A sessions. Yet CEO communication about firm environmental engagement can be positively associated with firm value, depending on the communicative intent the CEO indicates, such that assertive and directive speech maintain this positive association, but expressive and commissive speech acts are negatively associated with firm value.",
+  "url": "https://doi.org/10.1007/s11747-026-01221-w",
+  "first_seen": "2026-11-13T06:52:57Z"
+ },
+ {
+  "id": "W7225809757",
+  "title": "Connected Friction—Collectively Designing Service Ecosystems Through Reflexive Relations",
+  "journal": "Journal of Service Research",
+  "date": "2026-11-11",
+  "abstract": "Designing service ecosystems is a collective endeavor in which interdependent actors intentionally reconfigure the social structures coordinating their value cocreation. Because actors experience structures differently, however, they often disagree about how to reconfigure them. Although reflexivity has been identified as a key enabler for service ecosystem design, research has primarily treated it as an individual capacity. Yet transformation guided only by reflexive individuals risks unintended consequences for others and rupturing the relations on which value cocreation depends. In response, we examine how reflexive relations can be stewarded to support service ecosystem design in pursuit of desirable collective outcomes. We define reflexive relations as a form of interaction in which differently positioned actors jointly render the institutionalized social structures coordinating their value cocreation observable, contestable, and open to reconfiguration. Through a two-year cooperative inquiry in Norwegian child welfare, we explicate connected friction as the core dialectic dynamic through which reflexive relations emerge, with uniformity and rupture as hindering dynamics. We also identify four situated conditions—practical distance, actor perspectives, emotional effort, and institutional legitimacy—that require continual attunement to steward reflexive relations in practice. This research reconceptualizes reflexivity as emerging through actors’ relations and shows how ongoing stewardship can leverage conflicting interdependencies as a generative resource for designing service ecosystems.",
+  "url": "https://doi.org/10.1177/10946705261492132",
+  "first_seen": "2026-11-13T06:52:57Z"
+ },
+ {
   "id": "W7225746325",
   "title": "Designing influencer portfolios in algorithm-driven short-video platforms: The role of portfolio focus and portfolio size",
   "journal": "Journal of the Academy of Marketing Science",
