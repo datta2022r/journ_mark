@@ -1,5 +1,50 @@
 [
  {
+  "id": "W4212848274",
+  "title": "EXPRESS: Slim Shading in Ad Auctions: Adjustment of Bidding Strategies to First-Price Rules",
+  "journal": "Journal of Marketing Research",
+  "date": "2026-11-16",
+  "abstract": "We study how bidders adjusted to a switch from second-price to first-price auction rules on a large online advertising exchange. Under first-price rules, bidders should strategically reduce (“shade”) their bids. To assess whether observed bid reductions were sufficient given the competition each bidder faced, we develop a nonparametric estimator of a lower bound on the valuation underlying each bid. The estimator relies on localized measures of competition and does not require assumptions of bidder symmetry, valuation independence, or equilibrium bidding. Applying the method to more than 40 million auctions involving eight major demand-side platforms, we find pervasive insufficient bid shading after the switch. The implied lower bounds on valuations remain substantially above pre-switch levels for at least three months after the transition, indicating that none of the bidders we study shaded sufficiently. This finding is robust to alternative definitions of local competition, richer conditioning information, and variations in the assumptions underlying the estimator. The results suggest that adjustment to major auction-design changes can be surprisingly slow even among sophisticated algorithmic bidders, with implications for marketplace design and the interpretation of short-run “A/B test” experiments.",
+  "url": "https://doi.org/10.1177/00222437261511019",
+  "first_seen": "2026-11-18T06:55:16Z"
+ },
+ {
+  "id": "W7223195589",
+  "title": "When AI Says No: AI-Driven Service Rejection and Its Impact on Customer Satisfaction",
+  "journal": "Journal of Service Research",
+  "date": "2026-11-16",
+  "abstract": "Service rejection is common in the service sector and a routine part of commercial interactions. As artificial intelligence (AI) becomes increasingly integrated into service delivery, it is important to understand how AI-driven rejections affect customer satisfaction compared with rejections made by human agents. This research shows that consumers are generally less satisfied when an AI agent, rather than a human agent, rejects their applications. This is because consumers are more likely to assign greater blame to AI agents, perceiving them as having lower decision-making ability. We also examine how explanations shape consumer responses to AI-driven rejections. Our findings indicate that providing a teleological explanation, clarifying why a rejection occurred, effectively mitigates negative reactions compared with providing a mechanistic explanation, which clarifies how the rejection was made, or providing no explanation at all. This research contributes to the ongoing discussions about consumer responses to AI-based decisions, particularly when those decisions deliver unfavorable outcomes.",
+  "url": "https://doi.org/10.1177/10946705261502655",
+  "first_seen": "2026-11-18T06:55:16Z"
+ },
+ {
+  "id": "W7233871785",
+  "title": "Organizational Frontlines the Next Frontiers: The Intersection of Context, Intent, Asymmetric Information, and Technology at B2C, B2B, and Back-Office Boundaries",
+  "journal": "Journal of Service Research",
+  "date": "2026-11-16",
+  "abstract": "",
+  "url": "https://doi.org/10.1177/10946705261501869",
+  "first_seen": "2026-11-18T06:55:16Z"
+ },
+ {
+  "id": "W7234394652",
+  "title": "Ambiguous Consumer Vulnerability: How Transgender Consumers Navigate the Co-Constitution of Agency and Harm",
+  "journal": "Journal of Service Research",
+  "date": "2026-11-16",
+  "abstract": "Consumer vulnerability research treats harm and agency as oppositional: vulnerability arises when restricted access to marketplace resources erodes agency, and restoring agency is assumed to reduce harm. Current research also presumes that vulnerable consumers occupy a stable, if constrained, legal position. Through an ethnography of UK-based transgender consumers, we problematize both assumptions and develop the concept of ambiguous consumer vulnerability: a condition in which harm arises not only when market access is withdrawn and agency is constrained, but also when consumers assert their agency by participating in the marketplace. Because the marketplace is inescapable and central to identity and well-being, exiting is not an option; consumers instead engage in the volitional absorption of harm to maintain market access. We show how this co-constitution of agency and harm is intensified by legal precarity, which renders the ambiguity persistent and unevenly distributed across services. We identify three strategies—circumventing, educating, and conforming—through which consumers navigate, rather than resolve, ambiguous consumer vulnerability, and then explore how legal precarity complicates the efficacy of these navigation strategies. We contribute to service research by reexamining the relationship between vulnerability, agency, and harm, and offer managerial guidance—seamless service inclusion and inconsequential fluidity—for more inclusive services.",
+  "url": "https://doi.org/10.1177/10946705261496837",
+  "first_seen": "2026-11-18T06:55:16Z"
+ },
+ {
+  "id": "W7234554960",
+  "title": "EXPRESS: How Gig Sellers Do the Hustle",
+  "journal": "Journal of Marketing",
+  "date": "2026-11-16",
+  "abstract": "We conceptualize and develop theoretical insights related to a neglected category of market actors: gig sellers. Gig sellers are independent agents who sell products on behalf of a specific brand with marketing support. They face semi-entrepreneurial opportunities, meaning that while they are entirely responsible for managing the customer sales funnel, they do not develop new products or services like conventional entrepreneurs. They are compensated solely by sales commissions and do not receive salaries or benefits like organizational salesreps. Drawing on a large set of qualitative data from effective agents, we inductively and abductively draw inspiration both from literature and our analyses to unpack how these agents seize the opportunity to accomplish what is important to them. We find prominent reliance on effectual versus predictive practices is crucial to satisfactory achievement of outcomes. We expand our understanding of the range of outcomes that gig selling may result in, whether it be to remain in gig sales (enacting long-term loyalty, switching teams, or enriching) or enter alternative opportunity corridors (pursuing entrepreneurship, seeking employment). Our theoretical insights contrast with findings regarding salespeople in institutional settings and other categories of independent agents. Practical implications for agents and organizations are developed.",
+  "url": "https://doi.org/10.1177/00222429261510754",
+  "first_seen": "2026-11-18T06:55:16Z"
+ },
+ {
   "id": "W4409457816",
   "title": "The Digital Journey of Health Insurance Marketing: Narrative Ads and Product Page Design",
   "journal": "Marketing Science",
@@ -1288,10 +1333,10 @@
  },
  {
   "id": "W7210276982",
-  "title": "EXPRESS: Impacts of Product-line Breadth on the Effectiveness of Advertising and Consumer Word-of-Mouth: Evidence from China’s Automobile Market",
+  "title": "Impacts of Product-Line Breadth on the Effectiveness of Advertising and Consumer Word of Mouth: Evidence from China's Automobile Market",
   "journal": "Journal of Interactive Marketing",
   "date": "2026-09-06",
-  "abstract": "Using data from the Chinese automobile market, we examine how firms’ product-line breadth choices moderate the effectiveness of firm advertising and consumer online word-of-mouth (WOM) in promoting product sales. We find that product-line breadth has opposing effects on the effectiveness of firm advertising and consumer online WOM. When a product line broadens, advertising’s effectiveness in driving vehicle sales declines, whereas online WOM’s effectiveness increases. Moreover, advertising and online WOM are substitutes in our context; however, such substitution effects weaken when product-line breadth widens. Furthermore, the mismatch cost between firms and consumers mediates the effects of product-line breadth on advertising and online WOM effectiveness. We quantitatively illustrate, using our parameter estimates, the trade-off between firm advertising and consumer online WOM in driving product sales when a firm’s product-line breadth changes. We contribute to the marketing communications literature by examining how firm strategy influences the effectiveness of marketer-generated (firm advertising) and user-generated (consumer online WOM) content. In addition, we contribute to the advertising – online WOM interaction literature and advance the understanding of mismatch cost.",
+  "abstract": "Using data from the Chinese automobile market, the article examines how firms’ product-line breadth choices moderate the effectiveness of firm advertising and consumer online word of mouth (WOM) in promoting product sales. The authors find that product-line breadth has opposing effects on the effectiveness of firm advertising and consumer online WOM. When a product line broadens, advertising's effectiveness in driving vehicle sales declines, whereas online WOM's effectiveness increases. Moreover, advertising and online WOM are substitutes in this context; however, such substitution effects weaken when product-line breadth widens. Furthermore, the mismatch cost between firms and consumers mediates the effects of product-line breadth on advertising and online WOM effectiveness. Using parameter estimates, the authors quantitatively illustrate a trade-off between firm advertising and consumer online WOM in driving product sales when a firm's product-line breadth changes. The article contributes to the marketing communications literature by examining how firm strategy influences the effectiveness of marketer-generated (firm advertising) and user-generated (consumer online WOM) content. In addition, it contributes to the advertising–online WOM interaction literature and advances the understanding of mismatch cost.",
   "url": "https://doi.org/10.1177/10949968261488312",
   "first_seen": "2026-10-30T16:35:54Z"
  },
@@ -1657,10 +1702,10 @@
  },
  {
   "id": "W7203942746",
-  "title": "EXPRESS: When AI Assists at the Frontline: External and Internal Marketing Effects in the Context of Banking Mortgages",
+  "title": "When AI Assists at the Frontline: External and Internal Marketing Effects in the Context of Banking Mortgages",
   "journal": "Journal of Marketing Research",
   "date": "2026-08-21",
-  "abstract": "Artificial intelligence (AI) increasingly assists frontline employees (FLEs) in nonroutine tasks; however, its implications remain uncertain. This study examines how thinking AI, i.e., a machine learning-based tool that derives recommendations from historical patterns, affects external outcomes (market offerings and satisfaction with FLEs) and internal outcomes (FLE job autonomy and satisfaction with the responses received). Quasi-experimental evidence in banking reveals that AI-assisted FLEs adopt more conservative behaviors, resulting in decreases in mortgage approvals, default payments, and customer satisfaction with FLEs. Textual analysis and a survey provide first evidence consistent with AI-generated solutions appearing more rigid and less open to alternative possibilities, in turn reducing FLE satisfaction. A preregistered experiment tests this evidence, showing that AI-generated responses are perceived as less flexible, which in turn reduces their satisfaction with the response received and, primarily through this indirect pathway, constrains their perceived job autonomy, regardless of perceived message helpfulness. This study advances the marketing literature by showing that the role of AI at the frontline may not be inherently supportive for nonroutine tasks. AI should be carefully aligned with the characteristics of such tasks so that marketers can harness the potential of AI assistance while mitigating unintended effects on employees and customers alike.",
+  "abstract": "Artificial intelligence (AI) increasingly assists frontline employees (FLEs) in nonroutine tasks; however, its implications remain uncertain. This study examines how thinking AI, that is, a machine learning–based tool that derives recommendations from historical patterns, affects external outcomes (market offerings and satisfaction with FLEs) and internal outcomes (FLE job autonomy and satisfaction with the responses received). Quasi-experimental evidence in banking reveals that AI-assisted FLEs adopt more conservative behaviors, resulting in decreases in mortgage approvals, default payments, and customer satisfaction with FLEs. Textual analysis and a survey provide first evidence consistent with AI-generated solutions appearing more rigid and less open to alternative possibilities, in turn reducing FLE satisfaction. A preregistered experiment tests this evidence, showing that AI-generated responses are perceived as less flexible, which in turn reduces their satisfaction with the response received and, primarily through this indirect pathway, constrains their perceived job autonomy, regardless of perceived message helpfulness. This study advances the marketing literature by showing that the role of AI at the frontline may not be inherently supportive for nonroutine tasks. AI should be carefully aligned with the characteristics of such tasks so that marketers can harness the potential of AI assistance while mitigating unintended effects on employees and customers alike.",
   "url": "https://doi.org/10.1177/00222437261483524",
   "first_seen": "2026-10-30T16:35:54Z"
  },
