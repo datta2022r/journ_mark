@@ -13,7 +13,7 @@
   "title": "Fan or Foe: How Human Versus Virtual Influencers and Review Type Drive Consumer Brand Hate",
   "journal": "Journal of Advertising",
   "date": "2026-11-17",
-  "abstract": "",
+  "abstract": "This research explores consumer brand hate reactions to influencer-generated reviews, focusing on differences between human influencers (HIs) and virtual influencers (VIs) and review types (unfair negative, fair negative, positive/control). Using a 2 × 3 between-subjects design, two experiments were conducted: Study 1 in a low-involvement context (café), and Study 2 in a high-involvement context (airline). Across both studies, HIs elicited stronger soft (non-purchase intention, brand switching) and hard (brand boycott, negative word-of-mouth) brand hate intentions than VIs, particularly following unfair negative reviews. Psychological contract breach emerges as the key mechanism linking influencer reviews to brand hate perceptions and intentions. This research introduces a theoretical framework to elucidate psychological factors contributing to brand hate reactions. The findings can help brands and advertisers adjust influencer strategies, including those involving generative artificial intelligence-enabled VIs, to meet consumer expectations, strengthen connections, and prevent brand rejection. The findings help brands manage influencer, including artificial intelligence-enabled VI, communications to mitigate brand hate.",
   "url": "https://doi.org/10.1080/00913367.2026.2754719",
   "first_seen": "2026-11-19T06:55:27Z"
  },
@@ -295,6 +295,15 @@
   "abstract": "",
   "url": "https://doi.org/10.1016/j.ijresmar.2026.11.001",
   "first_seen": "2026-11-14T06:41:59Z"
+ },
+ {
+  "id": "W7236378700",
+  "title": "Online review effectiveness: The moderating role of macroeconomic conditions",
+  "journal": "Journal of Retailing",
+  "date": "2026-11-01",
+  "abstract": "Online consumer reviews are a key source of information that guides other consumers in their purchase decisions. Prior research has primarily examined the direct influence of online reviews on proxies of consumer demand (e.g., sales measures). However, this relationship may shift as macroeconomic conditions alter the extent to which consumers prioritize quality differentiation and risk mitigation in their consumption decisions. This research offers empirical insights into how macroeconomic conditions (measured as quarterly real GDP growth) moderate the relationship between different online review characteristics and customer visits (measured as location-based customer check-ins) in the U.S. restaurant industry. Based on a comprehensive dataset integrating behavioral, market, and macroeconomic information, the findings indicate that the effectiveness of online review characteristics varies systematically with GDP growth. Moreover, this variation differs between independent and chain restaurants. The findings offer actionable insights for restaurant managers of independent and chain restaurants on how to leverage online reviews more effectively across changing macroeconomic conditions.",
+  "url": "https://doi.org/10.1016/j.jretai.2026.08.001",
+  "first_seen": "2026-11-20T06:54:51Z"
  },
  {
   "id": "W7224779731",
@@ -1378,10 +1387,10 @@
  },
  {
   "id": "W7210288362",
-  "title": "EXPRESS: Behavioral Research Through Interpretable, Dimensionality-reduced Generative AI Embeddings (BRIDGE): A Method to Incorporate Real-World Stimuli in Consumer Experiments",
+  "title": "Behavioral Research Through Interpretable, Dimensionality-Reduced Generative AI Embeddings (BRIDGE): A Method to Incorporate Many Real-World Stimuli in Consumer Experiments",
   "journal": "Journal of Marketing Research",
   "date": "2026-09-06",
-  "abstract": "Traditional experiments often rely on a few, stylized stimuli, which can limit realism and undermine generalizability beyond the sampled stimuli—known as the stimulus-sampling problem. To address this challenge, this paper introduces BRIDGE, a novel analytical method that enables the use of many unaltered real-world descriptions as experimental stimuli. Leveraging foundational generative AI embeddings, BRIDGE develops (1) structured, low-dimensional, and interpretable representations of focal constructs and (2) statistical controls for non-focal nuisance variations, facilitating causal inference. Extensive Monte Carlo simulations, two coffee certification experiments, and a large-scale choice experiment (plus its validation study) show that BRIDGE recovers true parameters even when textual stimuli contain unobserved nuisance variations, and can effectively account for different sources of confounding. In the choice experiment, 1,000 participants evaluated approximately 50,000 unique product descriptions randomly sampled from a corpus of nearly 120,000. Results show that entirely incidental initial products can shape participants’ subsequent preferences. By incorporating many unaltered product texts into experiments, BRIDGE enhances the realism, generalizability, and practical relevance of consumer research in information-rich environments. A detailed researcher’s guide and Python package bridge are provided.",
+  "abstract": "Traditional experiments often rely on a few, stylized stimuli, which can limit realism and undermine generalizability as effects may stem from idiosyncrasies of sampled stimuli rather than intended constructs, a concern known as the stimulus-sampling problem. This article introduces BRIDGE (Behavioral Research Through Interpretable, Dimensionality-Reduced Generative AI Embeddings), a novel analytical method that enables the use of many unaltered real-world descriptions as experimental stimuli. BRIDGE uses generative AI embeddings to develop (1) structured, low-dimensional, and interpretable representations of focal constructs and (2) statistical controls for nonfocal nuisance variations, facilitating causal inference. Extensive Monte Carlo simulations, two experiments in the context of coffee certification, and a large-scale choice experiment (plus its validation study) show that BRIDGE recovers true parameters even when textual stimuli contain unobserved nuisance variations, and can effectively account for different sources of confounding. In the choice experiment, 1,000 participants evaluated approximately 50,000 unique product descriptions randomly sampled from a corpus of nearly 120,000. Results show that entirely incidental initial products can shape participants’ subsequent preferences. By incorporating many unaltered descriptions into experiments, BRIDGE enhances the realism, generalizability, and practical relevance of consumer research in information-rich environments. A detailed researcher's guide and a Python package, bridge, are provided.",
   "url": "https://doi.org/10.1177/00222437261484068",
   "first_seen": "2026-10-30T16:35:54Z"
  },
@@ -1711,10 +1720,10 @@
  },
  {
   "id": "W7203936299",
-  "title": "EXPRESS: Private Labels and Retailer Profitability: Bilateral Bargaining in the Grocery Channel",
+  "title": "Private Labels and Retailer Profitability: Bilateral Bargaining in the Grocery Channel",
   "journal": "Journal of Marketing Research",
   "date": "2026-08-21",
-  "abstract": "The authors examine the role of store-branded, “private label” products in determining retailers’ profits. Exploiting a novel setting in which a patent expiration concided with private-label entries, they estimate a structural model of demand and supply-side bargaining to identify primary determinants of retailer gains from private labels. They find private-label entry causes a significant and heterogeneous impact on retailer profits. Utilizing unique data on the identity of private-label manufacturers, they show a stronger retailer bargaining position (disagreement payoffs) vis à vis private-label supplier leads to a larger retailer gain. These gains arise both through improved direct profits from the private label, and indirectly through a better bargaining outcome on national-brand products. These results highlight the importance of supply-side arrangements in determining private-label profits, and the private label’s role as bargaining leverage against national brands. The authors also quantify how the retailer's “brand” equity affects the profitability of its private label.",
+  "abstract": "The authors examine the role of store-branded, “private label” products in determining retailers’ profits. Exploiting a novel setting in which a patent expiration coincided with private label entries, they estimate a structural model of demand and supply-side bargaining to identify primary determinants of retailer gains from private labels. They find that private label entry causes a significant and heterogeneous impact on retailer profits. Utilizing unique data on the identity of private label manufacturers, they show that a stronger retailer bargaining position (disagreement payoffs) relative to a private label supplier leads to a larger retailer gain. These gains arise both through improved direct profits from the private label and indirectly through a better bargaining outcome on national-brand products. These results highlight the importance of supply-side arrangements in determining private label profits and the private label's role as bargaining leverage against national brands. The authors also quantify how the retailer's “brand” equity affects the profitability of its private label.",
   "url": "https://doi.org/10.1177/00222437261483522",
   "first_seen": "2026-10-30T16:35:54Z"
  },
