@@ -1,5 +1,50 @@
 [
  {
+  "id": "W7171634183",
+  "title": "EXPRESS: Causal Inference With Endogenous Price Response",
+  "journal": "Journal of Marketing Research",
+  "date": "2026-11-20",
+  "abstract": "The authors study the estimation of causal treatment effects on demand when treatment is randomly assigned but prices adjust in response to treatment. They show that regressions of demand on treatment or on treatment and price lead to biased estimates of the direct treatment effect. The sign of the bias in both cases depends on the sign of the correlation of price with treatment, and the two biases point in the same direction. In most cases including an endogenous price control reduces bias but does not remove it. The authors also show how to test whether bias from an endogenous price response arises and how to recover an unbiased direct treatment effect using a price instrument. They apply the approach to the estimation of feature advertising effects across several product categories using supermarket scanner data and show that the bias when not instrumenting price can be substantial.",
+  "url": "https://doi.org/10.1177/00222437261511867",
+  "first_seen": "2026-11-22T06:50:06Z"
+ },
+ {
+  "id": "W7237030142",
+  "title": "Closing the Knowledge Gap: How Moral Obligations, Perceived Benefits, and Dispositional Greed Shape Influencer Advertising Code Compliance",
+  "journal": "Journal of Advertising",
+  "date": "2026-11-20",
+  "abstract": "",
+  "url": "https://doi.org/10.1080/00913367.2026.2760247",
+  "first_seen": "2026-11-22T06:50:06Z"
+ },
+ {
+  "id": "W7237111417",
+  "title": "EXPRESS: Making the Shelf Work for You: How Shelf Dimensions and Brand Types Influence the Shelf Placement Effect on Product Performance",
+  "journal": "Journal of Marketing Research",
+  "date": "2026-11-20",
+  "abstract": "This study examines how vertical and horizontal shelf position and shelf space affect product sales, and how these effects vary across brand types and shelf dimensions. Using sales data and detailed planogram changes from a leading convenience-store retailer, the analysis distinguishes primary NBs (market-leading national brands), secondary NBs (other nationally distributed brands), and PLs (private labels), and compares tall versus short and wide versus narrow shelves. On tall shelves, primary and secondary NBs perform best between the middle and top, whereas vertical position has little effect for PLs. On short shelves, NBs perform better toward the top and bottom, while PLs tend to perform better near the top. On wide shelves, primary NBs perform best slightly left of center, while horizontal position has little effect for secondary NBs and PLs. On narrow shelves, primary NBs perform best near the center, PLs left of center, and secondary NBs show only modest differences across positions. More shelf space increases sales most strongly for PLs. A shelf-optimization analysis suggests substantial model-implied sales improvements from shelf rearrangement. Overall, the findings help retailers assess and justify requests for contested premium positions and shelf space by showing which brand types benefit most across shelf types.",
+  "url": "https://doi.org/10.1177/00222437261511889",
+  "first_seen": "2026-11-22T06:50:06Z"
+ },
+ {
+  "id": "W7237185175",
+  "title": "Implicit Algorithm Aversion: How Consumer Characteristics Shape Perceptions of Ads Designed by Undisclosed AI Versus Human Advertising Professionals",
+  "journal": "Journal of Advertising",
+  "date": "2026-11-20",
+  "abstract": "The emergence of generative artificial intelligence (AI) has profoundly reshaped the marketing landscape, providing scalable efficiencies in ad creation. However, the consumer side of AI integration remains underexplored. Drawing on algorithm aversion theory, this research extends the literature by examining how consumer characteristics moderate the persuasive impact of AI- and human-designed ads. Across a pretest and six large-scale experimental studies involving 6,579 consumer evaluations in Japan, this research finds that advertisements with undisclosed AI authorship often outperform human-designed advertisements in enhancing ad perceptions of creativity, credibility, clarity, and mental imagery (i.e., stimulating vivid consumer imagination) and, consequently, increasing purchase intentions. However, AI-generated ads are less effective among consumers with more generative AI experience, higher education, greater product category involvement, and lower interest in science. In these consumer segments, human-designed ads often have the advantage. These findings extend algorithm aversion theory by providing indirect evidence consistent with an implicit mechanism through which consumer characteristics trigger implicit algorithm detection (i.e., sensing algorithmic markers) and implicit algorithm aversion (i.e., subconscious devaluation of perceived artificiality) without requiring explicit disclosure of AI authorship. The findings inform marketing practice by emphasizing the importance of consumer segmentation.",
+  "url": "https://doi.org/10.1080/00913367.2026.2741824",
+  "first_seen": "2026-11-22T06:50:06Z"
+ },
+ {
+  "id": "W7237257225",
+  "title": "EXPRESS: The Relationship Between a Salesperson’s Past and Future Performance",
+  "journal": "Journal of Marketing",
+  "date": "2026-11-20",
+  "abstract": "A salesperson’s past performance is widely assumed to predict their future performance, and thus often guides managerial decision-making. Contrary to that assumption, this study uncovers why and under what conditions past performance becomes a less reliable predictor of future performance. A grounded theory study in a solution-selling context reveals that recent wins generate after-sales workload that lowers the odds of converting the next lead, particularly when those wins are complex, as occurs when customer relationships are new or procurement is formalized. Analysis of seven years of CRM data covering 3,669 sales leads at a Fortune 500 firm confirms that the link between past and future wins weakens as recent wins grow in complexity. Behavioral experiments causally confirm this attenuation effect, showing recent wins reduce effort on the next lead when those wins are complex. Finally, a single-dataset meta-analysis offers convergent evidence for workload as the underlying mechanism, revealing the relationship also weakens when workload is decoupled from winning and rooted in organizational change instead. For managers, these findings imply that using past performance to guide forecasting, quota setting, and coaching risks suboptimal decisions. They also underscore the importance of resourcing salespeople to balance after-sales responsibilities with new business development.",
+  "url": "https://doi.org/10.1177/00222429261511608",
+  "first_seen": "2026-11-22T06:50:06Z"
+ },
+ {
   "id": "W7236644127",
   "title": "Opulent and Environmentally Responsible?: Brand‐ and Consumer‐Related Factors Shaping Consumer Responses to Sustainable Product Innovation Signals by Luxury Brands",
   "journal": "Journal of Product Innovation Management",
@@ -7,6 +52,15 @@
   "abstract": "Academic Summary Luxury and environmental sustainability often appear fundamentally at odds: luxury derives its value from exclusivity, symbolic aspiration, and resource‐intensive craftsmanship, while sustainability demands restraint, reduced environmental impact, and responsible production. Yet luxury brands such as LVMH and Gucci are increasingly introducing sustainable product innovations, seeking to align with evolving consumer expectations and regulatory demands. For consumers, this creates a genuine tension: does a sustainably produced luxury personal good elevate its desirability, or quietly erode what makes it special in the first place? Despite the urgency of this question for both consumers and brands navigating the luxury‐sustainability interface, research on consumer responses to sustainable product innovation in luxury personal goods remains limited. Drawing on signaling and cue‐diagnosticity theory, this study examines how, why, and when consumers respond to luxury brands'' environmentally sustainable product innovation. Across a pilot and three main experimental studies, it explores consumer responses to sustainability signals, particularly considering skepticism surrounding the sustainability–luxury interface. Results show that consumers have more positive attitudes, higher purchase intentions, and greater willingness to recommend luxury brands engaged in sustainable versus conventional product innovation. This effect is partially mediated by consumers' feelings of specialness, a proximal, state‐like psychological mechanism. Moreover, transparency as a brand‐level signal and socially responsible consumer behavior as a consumer‐level characteristic strengthen the effectiveness of sustainable product innovation signals. These findings advance understanding of how environmentally sustainable product innovation creates value in luxury markets by shaping consumers' interpretations, experiences, and responses. Managerial Summary Luxury brands face growing pressure to integrate sustainability into their products while preserving the exclusivity, prestige, and craftsmanship that define their appeal. This research offers practical guidance on how they can navigate this challenge through sustainable product innovation. Across four studies involving more than 2450 consumers, introducing eco‐innovative products improves consumer attitudes, increases purchase intentions, and strengthens willingness to recommend. A key insight is that consumers respond positively because sustainable product innovations make them feel special, unique, and privileged, reinforcing rather than undermining luxury's core appeal. Managers can cultivate these perceptions by embedding environmental sustainability into limited editions, exclusive collaborations, and bespoke offerings. Experiential storytelling highlighting material origins, craftsmanship processes, and environmental significance transforms these initiatives into emotionally engaging experiences rather than purely ethical propositions. Transparency is equally critical. When brands are transparent about their sustainability practices, the positive impact on consumer attitudes and purchase intentions is significantly stronger. These results offer clear guidance for luxury brand managers and innovation teams: integrate sustainable product innovation into new product development not as a trade‐off but as a source of differentiation, prioritize transparency to meet consumer demand for accountability, and tailor communications to eco‐conscious consumer segments, positioning the brand as a forward‐thinking leader in luxury innovation.",
   "url": "https://doi.org/10.1111/jpim.70065",
   "first_seen": "2026-11-21T06:51:38Z"
+ },
+ {
+  "id": "W7225806935",
+  "title": "Giving More in a Non-Native Language: The Effect of Language on Monetary Donations",
+  "journal": "Journal of Consumer Research",
+  "date": "2026-11-19",
+  "abstract": "How does the language of a charitable appeal, whether communicated in a potential donor’s native or non-native (but proficient) language, influence monetary donations? Whereas research finds that people behave more morally in their native (vs. non-native) language, eight preregistered experiments (N = 7,447) and one archival analysis (N = 3,142) find that people donate less in response to appeals in their native language. People facing a donation decision need to determine whether and how much to give, with the appropriate action varying across situations. Situational considerations that inform this decision are more accessible in a native language, making donation decisions seem less diagnostic of the self, reducing giving. Consistent with this process, perceived self-diagnosticity mediates the effect of language on donations, and manipulating self-diagnosticity attenuates this effect. Reconciling these findings with prior research, the relationship between language and moral behavior depends on the type of moral decision under consideration: a native language promotes adherence to moral rules when decisions involve moral violations (stealing; lying), but reduces giving for donation decisions, which we refer to as moral aspirations. Beyond advancing theory on language, self-diagnosticity, and moral behavior, this research offers practical guidance to maximize charitable giving when communicating with multilingual audiences.",
+  "url": "https://doi.org/10.1093/jcr/ucag042",
+  "first_seen": "2026-11-22T06:50:06Z"
  },
  {
   "id": "W7235389345",
