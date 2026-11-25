@@ -1,5 +1,14 @@
 [
  {
+  "id": "W7220913319",
+  "title": "The Identification of the Dynamic Discrete-Choice Model with Stockpiling",
+  "journal": "Marketing Science",
+  "date": "2026-11-23",
+  "abstract": "We show that the canonical dynamic discrete-choice model of demand has built-in exclusion restrictions that overidentify the discount factor.",
+  "url": "https://doi.org/10.1287/mksc.2024.1280",
+  "first_seen": "2026-10-30T16:35:54Z"
+ },
+ {
   "id": "W7171634183",
   "title": "EXPRESS: Causal Inference With Endogenous Price Response",
   "journal": "Journal of Marketing Research",
@@ -837,15 +846,6 @@
   "first_seen": "2026-10-30T16:35:54Z"
  },
  {
-  "id": "W7220913319",
-  "title": "The Identification of the Dynamic Discrete-Choice Model with Stockpiling",
-  "journal": "Marketing Science",
-  "date": "2026-10-08",
-  "abstract": "We study the identification of the discount factor for dynamic discrete-choice (DDC) models of demand with stockpiling of a storable good. We show that the DDC has built-in exclusion restrictions that set-identify the discount factor without requiring any auxiliary assumptions. We compare this approach to previous work that assumes auxiliary structure on the storage cost function, clarifying how such structure generates exclusion restrictions and the corresponding data moments used for identification. Our key results show that these auxiliary restrictions are not necessary for identification; but that they are testable and can be included to achieve point identification and improve statistical efficiency. Using a case study of laundry detergent from earlier published work, we find a mean discount factor estimate of $0.957$, rejecting myopic models of choice in favor of the dynamic model. In counterfactual simulations, we show that some of the promotional lift during a discount period is indeed due to forward-buying. However, we predict considerably higher incremental sales compared to a standard discrete-choice model, which predicts that promotional discounts mainly cause substitution between brands. These results contribute to the long-standing discussion about the effectiveness of price promotions.",
-  "url": "https://doi.org/10.1287/mksc.2024.1280",
-  "first_seen": "2026-10-30T16:35:54Z"
- },
- {
   "id": "W7220998700",
   "title": "Platform-Based Servitization: Reconciling Competing Growth Logics for Industrial Firms",
   "journal": "Journal of Service Research",
@@ -1273,7 +1273,7 @@
   "title": "EXPRESS: Political Extremism and Post-Purchase Customer–Brand Relationships",
   "journal": "Journal of Marketing",
   "date": "2026-09-18",
-  "abstract": "Political polarization continues to intensify and has inspired substantial research on how individuals’ political identities shape their behaviors as consumers. This stream of research has focused primarily on differences between those on the “left” and the “right” of the political spectrum, offering valuable insights but addressing only one dimension of polarization. The current research introduces the other, currently overlooked dimension, political extremism, and examines how individuals closer to each end of the ideological spectrum differ in post-purchase decision-making from those with weaker or moderate identities. It shows that politically extreme consumers exhibit stronger repurchase likelihood, potentially deriving benefits associated with committing to brands. However, they are also less sensitive to price increases by their chosen brands, even when viable alternatives exist, increasing the risk of overpaying and undermining their financial well-being. These effects are driven by politically extreme consumers’ beliefs in the superiority of their consumption choices and are more pronounced in the presence of threats that originate from the consumption domain (e.g., focal brand product/service failures, competitor new product launches), whereas they diminish in the presence of threats originating from the political domain (e.g., customer–focal brand political misalignment, customer–competitor political alignment).",
+  "abstract": "An incorrect version of this manuscript was published online and has been temporarily removed.",
   "url": "https://doi.org/10.1177/00222429261492328",
   "first_seen": "2026-10-30T16:35:54Z"
  },
