@@ -1,5 +1,14 @@
 [
  {
+  "id": "W7223129134",
+  "title": "The Effects of Search Interface on Consumer Preferences: Evidence from a Randomized Experiment",
+  "journal": "Marketing Science",
+  "date": "2026-11-25",
+  "abstract": "A randomized experiment shows how restricting search filters broadens product exposure, reshapes revealed attribute preferences, and increases choice diversity.",
+  "url": "https://doi.org/10.1287/mksc.2025.0261",
+  "first_seen": "2026-10-30T16:35:54Z"
+ },
+ {
   "id": "W4389132040",
   "title": "Platform Information Design and Competitive Price Targeting",
   "journal": "Marketing Science",
@@ -627,15 +636,6 @@
   "date": "2026-10-22",
   "abstract": "There is an ongoing debate about the role of market share and market share–based competition in shaping corporate behavior and performance. This study advances the discussion by analyzing how a firm’s specific competitive situation drives corporate misconduct and how such misconduct affects future market share. Based on a theory-in-use approach, the authors propose the Theory of Market Share–Based Competitive Pressure (TMCP) and introduce four new market share–based constructs that reflect different dimensions of competitive pressure. Using a global sample of 2,145 firms across 254 industries over 11 years, they find that firms that are closer to market leadership and more closely followed by competitors are more prone to misconduct. The results demonstrate that misconduct systematically weakens the very market positions that created the pressure in the first place, with particularly strong penalties for environmental and governance–related misconduct incidents. Importantly, organizational characteristics such as compensation design, board composition, and marketing capabilities condition the extent to which competition translates into corporate misconduct. Together, these findings demonstrate that while misconduct may appear as a shortcut to defend competitive positions, it ultimately undermines them, and there are ways to reduce incentives for misconduct in the first place.",
   "url": "https://doi.org/10.1177/00222429261503585",
-  "first_seen": "2026-10-30T16:35:54Z"
- },
- {
-  "id": "W7223129134",
-  "title": "The Effects of Search Interface on Consumer Preferences: Evidence from a Randomized Experiment",
-  "journal": "Marketing Science",
-  "date": "2026-10-21",
-  "abstract": "While structured search interfaces—such as filters and sorting tools—help consumers reduce search frictions on digital platforms, they also shape how consumers encounter product information during search. This paper studies how search interface design influences revealed preferences and market outcomes. We develop a theoretical framework linking interface design to attribute preferences through salience reallocation and information-based preference updating. The framework generates two predictions that can be formally derived: restricting faceted filters reduces the concentration of attribute importance weights (i.e., preference dispersion) and increases the diversity of products chosen (i.e., choice diversity). We test these predictions using a randomized, incentive-aligned online experiment in which 1,200 participants searched for wireless headphones on a custom-built e-commerce platform. Restricting filters led consumers to explore more broadly and resulted in more evenly distributed attribute importance weights and more diverse, higher-priced product choices. Mediation analysis further suggests that increased exploration was associated with shifts in attribute preferences. Our findings demonstrate that search interface design can construct, rather than merely reveal, consumer preferences.",
-  "url": "https://doi.org/10.1287/mksc.2025.0261",
   "first_seen": "2026-10-30T16:35:54Z"
  },
  {
